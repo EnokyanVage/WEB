@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="../../img/icon.ico" type="image/x-icon">
+    <link rel="icon" href="../../img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Raleway&display=swap" rel="stylesheet">
+    <title>Account Login</title>
+  </head>
+  <body>
+    <main>
+         <div class="registration-form"> <!--registration-form -->
+            <p class = "registration-form__title">Account login</p> <!--registration-form__title -->
+
+            <div>
+                <p class="registration-form__sub-title">Username</p> <!--registration-form__sub-title -->
+                <input class="registration-form__input" type="text"> <!--registration-form__input -->
+            </div>
+
+            <div class = "registration-form__password">
+                <p class="registration-form__sub-title">Password</p>
+                <input class="registration-form__input" id = "eye_icon" type="password"> 
+                <div class="registration-form__img"></div>
+            </div>
+
+            <div class="registration-form__checkbox"> <!--registration-form__checkbox -->
+                <input type="checkbox" class="registration-form__chekbox_input">
+                <span style="color: lightgrey; font-family: 'Karla', sans-serif;">Remember me</span>
+                <a href="#" style="float: right; color: grey; font-family: 'Raleway', sans-serif; text-decoration: none;">Forgot password?</a>
+            </div>
+
+            <div class="registration-form__button">
+                <button class="registration-form__button_login" type="submit" value="Login">Login</button>
+            </div>
+        </div>
+    </main>
+    <script src = "password_script.js"></script>
+  </body>
+</html>
