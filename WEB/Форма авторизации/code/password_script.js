@@ -8,7 +8,7 @@ showPassword.forEach(item =>
 
 function password_show()
 {
-    var temp = document.querySelectorAll('.registration-form__password input');
+    let temp = document.querySelectorAll('.registration-form__password input');
 
     if (temp[0].type === "password") {
 
