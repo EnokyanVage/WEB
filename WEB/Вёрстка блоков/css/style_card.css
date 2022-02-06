@@ -40,15 +40,15 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 70px;
 }
-.button {
+.card__form__button {
 	margin-top: -35%;
 	margin-left: 80%;
 	opacity: 0;
 	transition: opacity .35s ease;
   }
-  .button a {
+  .card__form__button a {
 	z-index: 1; 
   }
-.card__form__text:hover .button {
+.card__form__text:hover .card__form__button {
 	opacity: 1;
 }
