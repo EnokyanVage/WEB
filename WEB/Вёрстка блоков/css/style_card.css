@@ -40,3 +40,26 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 70px;
 }
+
+.card__from__update {
+    margin-left: 200px;
+	margin-top: -70px;
+    transform: translateX(-20%);
+    width: 2em;
+    height: 2em;
+    transition: opacity 0.3s ease;
+	z-index: 1;
+}
+
+.button {
+	margin-top: -35%;
+	margin-left: 80%;
+	opacity: 0;
+	transition: opacity .35s ease;
+  }
+  .button a {
+	z-index: 1; 
+  }
+.card__form__text:hover .button {
+	opacity: 1;
+}
